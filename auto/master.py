@@ -65,7 +65,7 @@ def batch_git_upload(dirname_list, commit, cluster):
 
 if __name__ == "__main__":
     # todo 项目文件夹要设置可写入权限(非常重要)
-    ftp = ftp_connect("118.24.18.235", 21, "bing", "JWrWbBT3WccKzGZD")
+    ftp = ftp_connect("", 21, "", "")
     path = '/Users/bing/PycharmProjects/auto_git/auto_git/'
     dirname_list = ['UDIWJS4L', 'V2UFJ8SH9']
     commit_msg = 'this is a test'
