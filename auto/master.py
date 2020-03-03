@@ -71,5 +71,3 @@ if __name__ == "__main__":
     commit_msg = 'this is a test'
     site_cluster = '' + '/'
     batch_git_upload(dirname_list, commit_msg, site_cluster)
-
-
